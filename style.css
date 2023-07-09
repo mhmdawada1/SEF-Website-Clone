@@ -251,6 +251,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-content: flex-end;
+    align-items: flex-end;
     gap: 1cm;
 }
 .container-flex36{
@@ -460,7 +462,7 @@ iframe{
     text-align: right;
     font-weight: 900;
     line-height: 1;
-    color: #fcfcfd;
+    color: #363738;
 }
 .title-2{
     font-family: 'Noto Sans Mono',sans-serif !important;
@@ -498,8 +500,6 @@ iframe{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
     z-index: 1;
 
 }
@@ -551,6 +551,7 @@ iframe{
     height: 1cm;
     width: 4cm;
     margin-left: 25px;
+    margin-top: 20px;
 }
 .title-2-sp{
     font-family: 'Noto Sans Mono',sans-serif;
@@ -560,6 +561,7 @@ iframe{
     color: #363738;
     background-color: #fcfcfd;
     margin-left: 25px;
+    margin-top: 15px;
     border: none;
 }
 .container-flex5{
@@ -774,7 +776,7 @@ ul li{
     font-weight: 900;
 }
 .title-20{
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Noto Sans Mono',sans-serif;
     font-weight: 900;
     color: #dcdee1;
