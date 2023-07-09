@@ -211,6 +211,43 @@
     background-color: #28eea7;
     gap: 0.1cm;
 }
+.container-flex30{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-flex31{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1cm;
+    flex-direction: column;
+    height: 350px;
+}
+.container-flex32{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: #363738;
+    height: 160px;
+}
+.partners1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2cm;
+    align-items: center;
+    align-content: center;
+}
+.partners2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
 .flex-items-map{
     display: flex;
     flex-direction: column;
@@ -400,6 +437,7 @@ iframe{
     line-height: 1;
     color: #fcfcfd;
     margin-left: 25px;
+    margin-bottom: 30px;
 }
 .title-1-sp{
     font-family: 'Noto Sans Mono', sans-serif;
@@ -427,7 +465,8 @@ iframe{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-top: -5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     z-index: 1;
 
 }
@@ -479,7 +518,6 @@ iframe{
     height: 1cm;
     width: 4cm;
     margin-left: 25px;
-    margin-top: 25px;
 }
 .title-2-sp{
     font-family: 'Noto Sans Mono',sans-serif;
@@ -883,4 +921,74 @@ h5{
     align-items: flex-end;
     margin-top: 10px;
 }
+.part{
+    width: 120px;
+    height: 80px;
+}
+.part2{
+    width: 120px;
+    height: 80px;
+}
+.part3{
+    width: 120px;
+    height: 80px;
+}
+.part4{
+    width: 120px;
+    height: 80px;
+}
+.part5{
+    width: 120px;
+    height: 80px;
+}
+.part6{
+    width: 120px;
+    height: 80px;
+}
+.part7{
+    width: 120px;
+    height: 80px;
+}
+.part8{
+    width: 120px;
+    height: 80px;
+}
+.part9{
+    width: 120px;
+    height: 80px;
+}
+.part10{
+    width: 120px;
+    height: 80px;
+}
+.part11{
+    width: 120px;
+    height: 80px;
+}
+.part12{
+    width: 120px;
+    height: 80px;
+}
+.enter-email{
+    display: inline-block;
+}
+.btn-subscribe{
+    height: 1.2cm;
+    width: 3cm;
+    color: #f1f2f3;
+    background-color: #232323;
+    border: none;
+    font-family: 'Noto Sans Mono',sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+.email-form{
+    height: 1cm;
+    width: 5cm;
+}
+input::placeholder{
+    font-family: 'Noto Sans Mono',sans-serif;
+    font-size: 14px;
+}
+
 
